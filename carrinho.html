@@ -43,86 +43,75 @@
                     <h1 id="titulo-carrinho"><img src="imagens/carrinho.png" alt="varrinho">  MEU CARRINHO</h1>
                     <div id="container-carrinho-pedido">
                         <div id="meu-carrinho"><!--Começo produtos do carrinho-->
-                            <table class="principal-tabela">
-                                <thead>
-                                    <tr>
-                                        <th id="produto-carrinho">Produto</th>
-                                        <th class="qtd-preco">Quantidade</th>
-                                        <th class="qtd-preco">Preço</th>
-                                        <th class="descarte"></th>
-                                    </tr>
-                                </thead>
+                            <div id="cabecalho-compras">
+                                <p class="imagens-carrinho">Produto</p>
+                                <p class="qtdd-preco">Quantidade</p>
+                                <p class="qtdd-preco">Preço</p>
+                                <p class="descarte"></p>
+                            </div>
 
-                                <tbody>
-                                    <tr class="tabela-carrinho">
-                                        <th class="imagem-produto-carrinho"><img src="imagens/notebook1-1.jpg" alt="notebook-carrinho" class="notebook-carrinho"><span class="nome-not">NOTEBOOK GAMER GIGABYTE AORUS 15 9MF, INTEL I5-12500H, 15.6, FHD, 8GB DDR5, SSD 512GB M.2, RTX 4050 6GB, AORUS-15-9MF-E2BR383SH</span></th>
-                                        <td class="quantidade-produto">- 1 +</td>
-                                        <td class="preco-produtocar">1 x R$ 8.999,90</td>
-                                        <td class="descarte"><a href=""><img src="imagens/excluir.png" alt=""></a></td>
-                                    </tr>
+                            <div class="compras-carrinho">
+                                <p class="imagens-carrinho"><img src="imagens/notebook1-1.jpg" alt=""><span style="margin-left: 20px;">NOTEBOOK GAMER GIGABYTE AORUS 15 9MF, INTEL I5-12500H, 15.6, FHD, 8GB DDR5, SSD 512GB M.2, RTX 4050 6GB, AORUS-15-9MF-E2BR383SH</span></p>
+                                <p class="qtdd-preco">-1+</p>
+                                <p class="qtdd-preco">1x R$ 8.999,90</p>
+                                <p class="descarte"><a href=""><img src="imagens/excluir.png" alt=""></a></p>
+                            </div>
 
-                                    <tr class="tabela-carrinho">
-                                        <th class="imagem-produto-carrinho"><img src="imagens/notebook5-1.jpg" alt="notebook-carrinho" class="notebook-carrinho"><span class="nome-not">NOTEBOOK GAMER GIGABYTE AORUS 15 BSF, INTEL I7-13700H, 15.6, QHD, 16GB DDR5, SSD 1TB M.2, RTX 4070 8G, AORUS-15-BSF-73BR754SH</span></th>
-                                        <td class="quantidade-produto">- 1 +</td>
-                                        <td class="preco-produtocar">1 x R$ 15.599,90 </td>
-                                        <td class="descarte"><a href=""><img src="imagens/excluir.png" alt=""></a></td>
-                                    </tr>
+                            <div class="compras-carrinho">
+                                <p class="imagens-carrinho"><img src="imagens/notebook4-1.jpg" alt=""><span style="margin-left: 20px;">NOTEBOOK GAMER GIGABYTE AORUS 17H BXF, INTEL I7-13700H, 17.3 POL, FHD, 16GB DDR5, SSD 1TB M.2, RTX 4080 12GB, AORUS-17H-BXF</span></p>
+                                <p class="qtdd-preco">-1+</p>
+                                <p class="qtdd-preco">1x R$ 15.599,90</p>
+                                <p class="descarte"><a href=""><img src="imagens/excluir.png" alt=""></a></p>
+                            </div>
 
-                                    <tr class="tabela-carrinho">
-                                        <th class="imagem-produto-carrinho"><img src="imagens/notebook4-1.jpg" alt="notebook-carrinho" class="notebook-carrinho"><span class="nome-not">NOTEBOOK GAMER GIGABYTE AORUS 17H BXF, INTEL I7-13700H, 17.3 POL, FHD, 16GB DDR5, SSD 1TB M.2, RTX 4080 12GB, AORUS-17H-BXF-74BR554SH</span></th>
-                                        <td class="quantidade-produto">- 1 +</td>
-                                        <td class="preco-produtocar">1 x R$ 25.599,90 </td>
-                                        <td class="descarte"><a href=""><img src="imagens/excluir.png" alt=""></a></td>
-                                    </tr>
-                                </tbody>
 
-                            </table>
+                            <div class="compras-carrinho" style="border-radius: 20px;">
+                                <p class="imagens-carrinho"><img src="imagens/notebook5-1.jpg" alt=""><span style="margin-left: 20px;">NOTEBOOK GAMER ASUS ROG STRIX G16, INTEL CORE I9-13980HX, 16GB RAM, GEFORCE RTX 4060, SSD 512GB, 16 FHD, WIN 11, CINZA - G614JV</span></p>
+                                <p class="qtdd-preco">-1+</p>
+                                <p class="qtdd-preco">1x R$ 25.599,90</p>
+                                <p class="descarte"><a href=""><img src="imagens/excluir.png" alt=""></a></p>
+                            </div>
                         </div><!--Final produtos do carrinho-->
 
                         <div id="resumo-pedido"><!-- Começo resumo do carrinho-->
-                            <table class="principal-tabela">
-                                <thead>
-                                    <tr>
-                                        <th id="resumo-titulo" colspan="2">Resumo</th>
-                                    </tr>
-                                </thead>
+                            <div id="titulo-resumo">
+                                <h2>Resumo</h2>
+                            </div>
 
-                                <tbody>
-                                    <tr>
-                                        <td class="subtotal-resumo">Subtotal</td>
-                                        <td class="subtotal-resumo">R$ 50.199,7</td>
-                                    </tr>
+                            <div class="subt-total">
+                                <p class="subtotal">Subtotal</p>
+                                <p class="subtotal">R$ 50.199,70</p>
+                            </div>
 
-                                    <tr>
-                                        <th class="total-resumo">Total</th>
-                                        <th class="total-resumo">R$ 50.199,7</td>
-                                    </tr>
+                            <div class="subt-total">
+                                <p class="total">Total</p>
+                                <p class="total">R$ 50.199,70</p>
+                            </div>
+                            
 
-                                    <tr>
-                                        <td class="precos-resumo" colspan="2">
-                                            <div id="pix-cartao-resumo">
-                                                <div class="avista-cartao">
-                                                    <p style="font-size: 12px; color: green;">à vista</p>
-                                                    <p style="font-size: 25px; color: green;">R$ 43.988,80</p>
-                                                    <p style="font-size: 14px;">No pix ou boleto com desconto</p>
-                                                </div>
+                            <div id="avista-cartao">
+                                <div id="avista"> 
+                                    <p style="font-size: 12px; color: green;">à vista</p>
+                                    <p style="font-size: 25px; font-weight: 600; color: green;">R$ 43.988,80</p>
+                                    <p style="font-size: 12px;">no pix ou boleto com desconto</p>
+                                </div>
+                            
+                                <div style="width: 30px; height: 2px; background-color: #7b1fd1; margin: 5px auto;"></div>
 
-                                                <div style="width: 30px; height: 2px; background-color: #7b1fd1; margin: 5px auto;"></div>
+                                <div id="cartao">
+                                    <p style="font-size: 20px; font-weight: 500; color: #7b1fd1;">R$ 50.199,70</p>
+                                    <div id="sem-juros">
+                                        <p style="font-size: 12px;">em até 10x de <span style="color: #7b1fd1;">5.019,97</span></p>
+                                        <p style="font-size: 12px;">sem juros no cartão</p>
+                                    </div>
+                                </div>
+                            </div>
 
-                                                <div class="avista-cartao">
-                                                    <p style="font-size: 20px; color: #7b1fd1;">R$ 50.199,7</p>
-                                                    <p style="font-size: 12px;">Em até 10x de <span style="color:#7b1fd1;">5.019,97</span> sem juros</p>
-                                                </div>
-                                            </div>
+                            <div id="finalizar-resumo">
+                                <a href="">FINALIZAR PEDIDO</a>
+                            </div>
+                        </div>
 
-                                            <div id="finalizar-resumo">
-                                                <a href="">FINALIZAR PEDIDO</a>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div> 
                     </div><!-- Final resumo do carrinho-->
 
                     <div id="container-cupom-fretes"><!-- Começo cupom e frete do carrinho-->

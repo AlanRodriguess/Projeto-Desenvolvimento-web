@@ -718,70 +718,63 @@ h3{
     border-radius: 20px;
 }
 
-.principal-tabela{
-    border-collapse: collapse;
-}
-
-#produto-carrinho{
-    text-align: left;
-    font-size: 13px;
-    padding: 18px;
-    width: 510px;
-    border-bottom: solid 1px #363636;
-}
-
-.qtd-preco{
-    padding: 18px;
-    font-size: 13px;
-    width: 175px;
-    border-bottom: solid 1px #363636;
-}
-
-.tabela-carrinho{
-    text-align: center;
-}
-
-.imagem-produto-carrinho{
-    display: flex;
-    justify-content: left;
-    width: auto;
-    height: 120px;
-    padding: 16px;
-    border-bottom: solid 1px #363636;
-}
-
-.nome-not{
+#cabecalho-compras{
     display: flex;
     align-items: center;
-    margin-left: 50px;
+    font-size: 16px;
+    padding: 14px;
+    width: auto;
+    height: 40px;
+    border-bottom: solid 1px #363636;
 }
 
-.quantidade-produto, .preco-produtocar, .descarte{
+.compras-carrinho{
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 120px;
+    padding: 14px;
     border-bottom: solid 1px #363636;
+}
+
+.imagens-carrinho{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.imagens-carrinho>img{
+    width: 100px;
+    height: auto;
+}
+
+.qtdd-preco{
+    width: 200px;
+    height: auto;
+    margin-right: 60px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 .descarte{
-    width: 80px;
+    width: 40px;
+    height: auto;
+    padding: 8px;
 }
 
 .descarte img{
     width: 20px;
-    padding: 8px;
-    border-radius: 15px;
+    height: auto;
+    padding: 6px;
 }
 
 .descarte img:hover{
     background-color: #7b1fd1;
-    transition: 0.2s;
+    border-radius: 15px;
 }
 
-.notebook-carrinho{
-    width: 120px;
-    height: auto;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-}
 /*---Final itens adicionado no carrinho---*/
 
 /*---Começo Resumo do pedido---*/
@@ -793,51 +786,52 @@ h3{
     border-radius: 20px;
 }
 
-#resumo-titulo{
-    width: 380px;
-    height: auto;
-    padding: 20px;
-    font-size: 25px;
-    font-weight: 500;
-    border-bottom: solid 1px #363636;    
+#titulo-resumo{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 1px #363636;
 }
 
-.subtotal-resumo, .total-resumo{
-    width: 100px;
-    padding: 20px;
+.subt-total{
+    display: flex;
+}
+
+.subtotal, .total{
+    width: 100%;
     text-align: center;
+    padding: 20px;
 }
 
-.subtotal-resumo{
+.subtotal{
     font-size: 14px;
 }
 
-.total-resumo{
-    font-size: 25px;
+.total{
+    font-size: 22px;
+    font-weight: 600;
     background-color: #363636;
 }
 
-.precos-resumo{
-    width: 100%;
-    height: 110px;
+#avista-cartao{
     text-align: center;
 }
 
-#pix-cartao-resumo{
-    width: auto;
-    height: auto;
-    padding: 20px;
+#avista, #cartao{
+    padding: 12px;
+    line-height: 27px;
 }
 
-.avista-cartao{
-    line-height: 27px;
-    padding: 10px;
+#sem-juros{
+    line-height: 16px;
 }
 
 #finalizar-resumo{
     width: 100%;
     height: auto;
-    margin-top: 5px;
+    margin-top: 25px;
     display: flex;
     justify-content: center;
 }
@@ -861,6 +855,7 @@ h3{
     background-color: green;
     transition: 0.3s;
 }
+
 /*---Final Resumo do pedido---*/
 
 /*---Começo Cupom e Frete---*/
