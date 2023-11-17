@@ -689,6 +689,8 @@ h3{
 #fundo-carrinho{
     background-color: #141414;
     color: white;
+    width: auto;
+    height: auto;
 }
 
 #fundo-carrinho>#titulo-carrinho{
@@ -710,7 +712,7 @@ h3{
     display: flex;
 }
 
-#meu-carrinho{
+.meu-carrinho-pedido{
     background-color: rgb(34,34,34);
     width: 1050px;
     height: 515px;
@@ -778,7 +780,7 @@ h3{
 /*---Final itens adicionado no carrinho---*/
 
 /*---Começo Resumo do pedido---*/
-#resumo-pedido{
+.resumo-pedido{
     background-color: rgb(34,34,34);
     width: 380px;
     height: 515px;
@@ -828,7 +830,7 @@ h3{
     line-height: 16px;
 }
 
-#finalizar-resumo{
+.finalizar-resumo{
     width: 100%;
     height: auto;
     margin-top: 25px;
@@ -836,7 +838,7 @@ h3{
     justify-content: center;
 }
 
-#finalizar-resumo>a{
+.finalizar-resumo>a{
     background-color: #7b1fd1;
     color: white;
     font-size: 19px;
@@ -851,12 +853,52 @@ h3{
     text-decoration: none;
 }
 
-#finalizar-resumo>a:hover{
+.finalizar-resumo>a:hover{
     background-color: green;
     transition: 0.3s;
 }
 
 /*---Final Resumo do pedido---*/
+/*--- FINAL CARRINHO ---*/
+
+/*--- Começo finalizar pedido---/*
+/*--- Começo formas de pagamento---*/
+#container-end-frete-formas{
+    display: flex;
+}
+
+#formas-pagamento-pedido{
+    background-color: rgb(34,34,34);
+    width: 340px;
+    height: auto;
+    margin-left: 30px;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#opcoes-pagamento{
+    margin-top: 20px;
+}
+
+.pagamentos{
+    margin-bottom: 15px;
+}
+/*--- Final formas de pagamento---*/
+
+/*--- Começo endereço de entrega---*/
+#container-end-entrega{
+    background-color: rgb(34,34,34);
+    width: 1050px;
+    height: 200px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+#endereco-entrega{
+    padding: 30px;
+}
+/*---Final endereço de entrega---*/
 
 /*---Começo Cupom e Frete---*/
 #container-cupom-fretes{
@@ -868,10 +910,11 @@ h3{
 
 #frete-prazos, #cupom-desconto{
     background-color: rgb(34,34,34);
-    width: 470px;
-    height: 90px;
+    width: 450px;
+    height: 80px;
     font-size: 20px;
-    padding: 20px;
+    padding: 30px;
+    border-radius: 20px;
 }
 
 #cupom-desconto{
@@ -908,10 +951,7 @@ h3{
     background-color: #7017c4;
     transition: 0.3s;
 }
-/*---Final cupom e frete---*/
+/*---Final cupom e frete---*/  
 
-/*--- FINAL CARRINHO ---*/
-
-/*--- Começo finalizar pedido---/*
 
 

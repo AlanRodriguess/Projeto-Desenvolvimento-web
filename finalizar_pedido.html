@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Carrinho</title>
+        <link rel="stylesheet" href="Css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    </head>
+    <body>
+        <header><!--começo cabeçalho-->
+            <div class="cabecalho">
+                <img src="imagens/logo.png" alt="logo" id="logo">
+
+                <div class="fundo-lupa">
+                    <input type="text" id="buscar" placeholder="Digite o que você procura...">
+                    <i class="fa fa-search"></i>
+                </div>
+
+                <ul>
+                    <li class="listacabecalho"><a href="login.html"><img src="imagens/usuario.png" alt="usuario" id="icone-usuario">LOGIN</a></li>
+                    <li class="listacabecalho"><a href="carrinho.html"><img src="imagens/carrinho.png" alt="carrinho" id="icone-carrinho">CARRINHO</a></li>
+                </ul>
+            </div>
+        </header><!--final cabeçalho-->
+
+        <nav><!-- Começo itens de navegação e banner-->
+            <div class="container-opcoes">
+                <a href="" class="link-opcoes">OFERTA DO DIA</a>
+                <a href="" class="link-opcoes">LANÇAMENTOS</a>
+                <a href="" class="link-opcoes">CARTÃO GAMEGEAR</a>
+                <a href="" class="link-opcoes">OPENBOX</a>
+                <a href="" class="link-opcoes">PROMOÇÕES</a>
+                <a href="" class="link-opcoes">SERVIÇOS</a>
+                <a href="" class="link-opcoes">TELEFONIA</a>
+            </div>
+
+        </nav><!-- Final itens de navegação e banner-->
+
+        <main>
+            <div id="container-carrinho">
+                <div id="fundo-carrinho">
+                    <h1 id="titulo-carrinho"><img src="imagens/carrinho.png" alt="varrinho">  MEU PEDIDO</h1>
+                    <div id="container-carrinho-pedido">
+                        <div class="meu-carrinho-pedido">
+                            <div id="cabecalho-compras">
+                                <p class="imagens-carrinho">Produto</p>
+                                <p class="qtdd-preco">Preço</p>
+                                <p class="descarte"></p>
+                            </div>
+
+                            <div class="compras-carrinho">
+                                <p class="imagens-carrinho"><span style="margin-left: 20px;">NOTEBOOK GAMER GIGABYTE AORUS 15 9MF, INTEL I5-12500H, 15.6, FHD, 8GB DDR5, SSD 512GB M.2, RTX 4050 6GB, AORUS-15-9MF-E2BR383SH</span></p>
+                                <p class="qtdd-preco">R$ 8.999,90</p>
+                                <p class="descarte"><a href=""></a></p>
+                            </div>
+
+                            <div class="compras-carrinho">
+                                <p class="imagens-carrinho"><span style="margin-left: 20px;">NOTEBOOK GAMER GIGABYTE AORUS 17H BXF, INTEL I7-13700H, 17.3 POL, FHD, 16GB DDR5, SSD 1TB M.2, RTX 4080 12GB, AORUS-17H-BXF</span></p>
+                                <p class="qtdd-preco">R$ 15.599,90</p>
+                                <p class="descarte"><a href=""></a></p>
+                            </div>
+
+
+                            <div class="compras-carrinho" style="border-radius: 20px;">
+                                <p class="imagens-carrinho"><span style="margin-left: 20px;">NOTEBOOK GAMER ASUS ROG STRIX G16, INTEL CORE I9-13980HX, 16GB RAM, GEFORCE RTX 4060, SSD 512GB, 16 FHD, WIN 11, CINZA - G614JV</span></p>
+                                <p class="qtdd-preco">R$ 25.599,90</p>
+                                <p class="descarte"><a href=""></a></p>
+                            </div>
+        
+                        </div><!--Final produtos do carrinho-->
+
+                        <div class="resumo-pedido"><!-- Começo resumo do carrinho-->
+                            <div id="titulo-resumo">
+                                <h2>Resumo</h2>
+                            </div>
+
+                            <div class="subt-total">
+                                <p class="subtotal">Subtotal</p>
+                                <p class="subtotal">R$ 50.199,70</p>
+                            </div>
+
+                            <div class="subt-total">
+                                <p class="subtotal">Frete</p>
+                                <p class="subtotal">Grátis</p>
+                            </div>
+
+                            <div class="subt-total">
+                                <p class="subtotal">Cupom</p>
+                                <p class="subtotal">R$ 400</p>
+                            </div>
+
+                            <div class="subt-total">
+                                <p class="total">Total</p>
+                                <p class="total">R$ 49.799,70</p>
+                            </div>
+                            
+
+                            <div id="avista-cartao">
+                                <div id="avista"> 
+                                    <p style="font-size: 12px; color: green;">à vista</p>
+                                    <p style="font-size: 25px; font-weight: 600; color: green;">R$ 43.588,80</p>
+                                    <p style="font-size: 12px;">no pix ou boleto com desconto</p>
+                                </div>
+                            
+                                <div style="width: 30px; height: 2px; background-color: #7b1fd1; margin: 5px auto;"></div>
+
+                                <div id="cartao">
+                                    <p style="font-size: 20px; font-weight: 500; color: #7b1fd1;">R$ 49.799,70</p>
+                                    <div id="sem-juros">
+                                        <p style="font-size: 12px;">em até 10x de <span style="color: #7b1fd1;">4.979,97</span></p>
+                                        <p style="font-size: 12px;">sem juros no cartão</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- Final resumo do carrinho-->
+                        
+                    </div>
+
+                    <div id="container-end-frete-formas">
+                        <div id="container-end-frete">
+                            <div id="container-end-entrega"><!--Começo endereço de entrega-->
+                                <div id="endereco-entrega">
+                                    <h4 style="font-size: 19px; margin-bottom: 10px;">Endereço de entrega</h4>
+
+                                    <p style="margin-bottom: 15px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid voluptate nemo voluptatibus quasi rem, quia qui, iusto, nam repellat aut officiis harum accusantium voluptas ullam unde iste veritatis assumenda illo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid voluptate nemo voluptatibus quasi rem, quia qui, iusto, nam repellat aut officiis harum accusantium voluptas ullam unde iste veritatis assumenda illo.</p>
+
+                                    <a href="">Alterar o endereço de entrega</a>
+                                </div>
+                            </div><!--Final endereço de entrega-->
+
+                            <div id="container-cupom-fretes"><!-- Começo cupom e frete do carrinho-->
+                                <div id="cupom-desconto">
+                                    <h4>Cupom de desconto:</h4>
+
+                                    <div class="container-procurar-botao">
+                                        <input type="text" placeholder="Cupom*" class="procurar-cep-cupom">
+                                        <a href="" class="botao-calcular-aplicar">APLICAR</a>
+                                    </div>
+                                </div>
+
+                                <div id="frete-prazos">
+                                    <h4>Frete e Prazos:</h4>
+
+                                    <div class="container-procurar-botao">
+                                        <input type="number" placeholder="CEP*" class="procurar-cep-cupom">
+                                        <a href="" class="botao-calcular-aplicar">CALCULAR</a>
+                                    </div>
+                                </div>
+                            </div><!-- Final cupom e frete do carrinho-->
+                        </div>
+
+                        <div id="formas-pagamento-pedido"><!--Começo formas de pagamento-->
+                            <h2>Formas de pagamentos</h2>
+
+                            <div id="opcoes-pagamento">
+                                <div class="pagamentos">
+                                    <input type="radio" name="pagamento">
+                                    <label for="pagamento">Boleto Bancário</label>
+                                </div>
+
+                                <div class="pagamentos">
+                                    <input type="radio" name="pagamento">
+                                    <label for="pagamento">Pix</label>
+                                </div>
+
+                                <div class="pagamentos">
+                                    <input type="radio" name="pagamento">
+                                    <label for="pagamento">Cartão de Crédito</label>
+                                </div>
+
+                                <div class="pagamentos">
+                                    <input type="radio" name="pagamento">
+                                    <label for="pagamento">Cartão de Débito</label>
+                                </div>
+
+                                <div class="pagamentos">
+                                    <input type="radio" name="pagamento">
+                                    <label for="pagamento">Transferência Bancária</label>
+                                </div>
+
+                                <div class="pagamentos">
+                                    <input type="radio" name="pagamento">
+                                    <label for="pagamento">Criptomoedas</label>
+                                </div>
+                            </div>
+
+                            <div class="finalizar-resumo">
+                                <a href="finalizar_pedido.html">FINALIZAR PEDIDO</a>
+                            </div>
+                        </div><!--Final formas de pagamento-->
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
