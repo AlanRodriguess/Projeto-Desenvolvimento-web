@@ -952,6 +952,61 @@ h3{
     transition: 0.3s;
 }
 /*---Final cupom e frete---*/  
+/*--- Final finalizar pedido---/*
 
+/*---Começo sobre---*/
+#container-sobre{
+    width: 100%;
+    height: 1100px;
+    display: flex;
+    justify-content: center;
+}
 
+#container-sobre p, h3{
+    color: white;
+    margin-top: 10px;
+}
 
+#sobremvv-fundo{
+    width: auto;
+    height: 600px;
+    margin-top: 80px;
+}
+
+.sobre-loja-desen{
+    background-color: rgb(34,34,34);
+    width: 1200px;
+    height: 200px;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+#mvv{
+    width: 1300px;
+    height: auto;
+    display: flex;
+    margin-top: 30px;
+}
+
+.mis-vis-valor{
+    background-color: rgb(34,34,34);
+    width: 600px;
+    height: 200px;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+#sobremvv-fundo h1{
+    color: #7b1fd1;
+}
+
+#fundo-desenvolvedor{
+    display: flex;
+}
+
+.desenvolvedor{
+    margin-right: 10px;
+}
+/*---Final sobre---*/
