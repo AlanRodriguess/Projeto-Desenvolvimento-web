@@ -1010,3 +1010,123 @@ h3{
     margin-right: 10px;
 }
 /*---Final sobre---*/
+
+/*---Começo Dashboard---*/
+#container-dashboard{
+    width: 100%;
+    height: 520px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#alteracao-relatorios{
+    color: white;
+    width: 300px;
+    height: auto;
+    margin-right: 30px;
+    background-color: rgb(34,34,34);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.titulo-dashboard{
+    margin-bottom: 12px;
+    color: #7b1fd1;
+}
+
+.titulo-dashboard~p{
+    margin-bottom: 10px;
+}
+
+#alteracao{
+    padding-bottom: 30px;
+    border-bottom: solid 1px #363636;
+}
+
+#relatorios{
+    padding-top: 30px;
+}
+
+#produtos-cadastrados{
+    width: 800px;
+    height: auto;
+    color: white;
+    background-color: rgb(34,34,34);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#inf-prod-cadastrados{
+    width: 100%;
+    height: 450px;
+    margin-top: 10px;
+}
+
+#cabecalho-prod-cadas{
+   display: flex;
+   align-items: center;
+   width: 100%;
+   height: 60px;
+   border-bottom: solid 1px #363636;
+}
+
+.imagens-prod-cadas{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: auto;
+    font-size: 13px;
+}
+
+.imagens-prod-cadas>img{
+    width: 70px;
+    margin-right: 15px;
+}
+
+.estoque-preco{
+    width: 150px;
+    height: auto;
+    text-align: center;
+}
+
+.editar-deletar{
+    width: 100px;
+    text-align: center;
+}
+
+.editar-deletar img{
+    width: 25px;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.editar-deletar img:hover{
+    background-color: #7b1fd1;
+    transition: 0.2s;
+}
+
+.editar-prod{
+    color: white;
+    background-color: #141414;
+    font-size: 13px;
+    text-decoration: none;
+    padding: 8px 10px;
+    border-radius: 10px;
+}
+
+.editar-prod:hover{
+    background-color: #7b1fd1;
+    transition: 0.3s;
+}
+
+
+.produtos-inf-cadastro{
+    display: flex;
+    align-items: center;
+    height: 95px;
+    border-bottom: solid 1px #363636;
+}
+/*---Final Dashboard---*/
