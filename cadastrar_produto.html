@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Dashboard</title>
+        <title>GameGear Store</title>
         <link rel="stylesheet" href="Css/style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     </head>
@@ -34,11 +34,10 @@
                 <a href="" class="link-opcoes">SERVIÇOS</a>
                 <a href="" class="link-opcoes">TELEFONIA</a>
             </div>
-
         </nav><!-- Final itens de navegação e banner-->
 
-        <main><!--Começo dashboard-->
-            <div id="container-dashboard">
+        <main><!--Começo cadastrar novo produto-->
+            <div id="container-cadastrar-produto">
                 <div id="alteracao-relatorios">
                     <div id="alteracao">
                         <h2 class="titulo-dashboard">Alteração</h2>
@@ -57,53 +56,49 @@
                     </div>
                 </div>
 
-                <div id="produtos-cadastrados">
-                    <h2 style="color: #7b1fd1;">Produtos cadastrados</h2>
+                <div id="cadastrar-novo-produto">
+                    <h1 style="color: #7b1fd1;">Cadastrar novo produto</h1>
 
-                    <div id="inf-prod-cadastrados">
-                        <div id="cabecalho-prod-cadas">
-                            <p class="imagens-prod-cadas">Produtos</p>
-                            <p class="estoque-preco">Estoque</p>
-                            <p class="estoque-preco">Preço</p>
-                            <p class="editar-deletar">Editar</p>
-                            <p class="editar-deletar"></p>
-                        </div>
-                        
-                        <div class="produtos-inf-cadastro">
-                            <p class="imagens-prod-cadas"><img src="imagens/notebook1-1.jpg" alt="notebook">Notebook Gamer Gigabyte Aorus 15 9MF</p>
-                            <p class="estoque-preco">20</p>
-                            <p class="estoque-preco">R$ 8.999,90</p>
-                            <p class="editar-deletar"><a href="" class="editar-prod">EDITAR</a></p>
-                            <p class="editar-deletar"><a href=""><img src="imagens/excluir.png" alt="excluir"></a></p>
+                    <form action="">
+
+                        <div class="form-produtos">
+                            <label for="">Descrição</label>
+                            <input type="text" class="form-escrever">
                         </div>
 
-                        <div class="produtos-inf-cadastro">
-                            <p class="imagens-prod-cadas"><img src="imagens/notebook2-1.jpg" alt="notebook">Notebook Gamer Gigabyte G5 KF</p>
-                            <p class="estoque-preco">43</p>
-                            <p class="estoque-preco">R$ 8.799,90</p>
-                            <p class="editar-deletar"><a href="" class="editar-prod">EDITAR</a></p>
-                            <p class="editar-deletar"><a href=""><img src="imagens/excluir.png" alt="excluir"></a></p>
+                        <div class="form-produtos">
+                            <label for="">Preço</label>
+                            <input type="number" class="form-escrever">
                         </div>
 
-                        <div class="produtos-inf-cadastro">
-                            <p class="imagens-prod-cadas"><img src="imagens/notebook3-1.jpg" alt="notebook">Notebook Gamer Gigabyte Aero 16 Oled BKF</p>
-                            <p class="estoque-preco">32</p>
-                            <p class="estoque-preco">R$ 15.999,90</p>
-                            <p class="editar-deletar"><a href="" class="editar-prod">EDITAR</a></p>
-                            <p class="editar-deletar"><a href=""><img src="imagens/excluir.png" alt="excluir"></a></p>
+                        <div class="form-produtos">
+                            <label for="">Ficha técnica</label>
+                            <textarea cols="40" rows="5" style="background-color: #141414; color: white; padding: 12px; border: transparent;"></textarea>
                         </div>
 
-                        <div class="produtos-inf-cadastro">
-                            <p class="imagens-prod-cadas"><img src="imagens/notebook4-1.jpg" alt="notebook">Notebook Gamer Gigabyte Aorus 17H BXF</p>
-                            <p class="estoque-preco">55</p>
-                            <p class="estoque-preco">R$ 25.599,90</p>
-                            <p class="editar-deletar"><a href="" class="editar-prod">EDITAR</a></p>
-                            <p class="editar-deletar"><a href=""><img src="imagens/excluir.png" alt="excluir"></a></p>
+                        <div class="form-produtos">
+                            <label for="">Categoria</label>
+                            <select style="background-color: #141414; color: white; height: 35px; border-radius: 8px; border: transparent;">
+                                <option value="">Celular</option>
+                                <option value="">Notebook</option>
+                                <option value="">Tablet</option>
+                                <option value="">Computador</option>
+                                <option value="">Televisão</option>
+                            </select>
                         </div>
-                    </div>
+
+                        <div class="form-produtos">
+                            <label for="">Upload de imagem do produto</label>
+                            <input type="file" style="background-color: #141414;">
+                        </div>
+
+                        <div id="botao-cadastrarnovo-produto">
+                            <a href="">Cadastrar</a>
+                        </div>
+                    </form>
                 </div>
             </div>
-        </main><!--Final dashboard-->
+        </main><!--Final cadastrar novo produto-->
 
         <footer><!--Começo rodapé-->
             <div id="sub-rodape">
@@ -184,3 +179,4 @@
             </div>
         </footer><!--Final rodapé-->
     </body>
+    
